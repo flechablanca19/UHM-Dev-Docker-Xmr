@@ -50,4 +50,4 @@ Also consider donating to MoneroOcean Pool, or mining on it (Zero fees!)
 
 I'm not associated to MoneroOcean or XMRig in anyway.
 # docker-xmrig
-# docker-xmrig
+
