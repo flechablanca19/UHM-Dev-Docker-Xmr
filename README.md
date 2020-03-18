@@ -7,9 +7,9 @@ This image clones `https://github.com/MoneroOcean/xmrig` and builds it according
 ## Usage
 
 ```shell
-sudo chmod +x install.sh
+sudo chmod +x xmrig.sh
 
-./install.sh
+./xmrig.sh
 ```
 
 ## Docker Compose example
