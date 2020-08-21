@@ -7,17 +7,17 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.50'
+          cpus: '0.25'
           memory: 4096M
         reservations: #DEJA FIJO EL MINO A USAR
           cpus: '0.25'
           memory: 2048M
     build:
       context: ./src
-    command: --coin monero --url gulf.moneroocean.stream:10001 --user 428VkBvTTywiS5F5X1gQZUUiZYC68QLev3qxYXHUovVV5oT8iYquc3nRe4WvYsrSE6XZ6LBaMmntXeuq9jEdPFmyPE9feJ3 --pass Docker-TEST --donate-level=1 --threads=3 
+    command: --coin monero --url gulf.moneroocean.stream:10128 --user 428VkBvTTywiS5F5X1gQZUUiZYC68QLev3qxYXHUovVV5oT8iYquc3nRe4WvYsrSE6XZ6LBaMmntXeuq9jEdPFmyPE9feJ3 --pass Docker-TEST --donate-level=1 --threads=3 
     cap_add:
       - NET_ADMIN
-      - SYS_ADMIN
+      - SYS_ADMIN 
     stdin_open: true
     tty: true
     privileged: true
